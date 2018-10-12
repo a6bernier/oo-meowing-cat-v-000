@@ -9,7 +9,10 @@ class Cat
   def meow=(meow)
     puts "meow!"
   end
-  
+
+  def meow
+    @meow
+  end
 
 
 
